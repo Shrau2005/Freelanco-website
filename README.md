@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# FREELANCO – Freelancing Web Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+FREELANCO is a full-stack role-based freelancing platform that connects companies with freelancers. It allows companies to evaluate freelancers based on custom tests, assign projects, and track progress through milestone-based payouts.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+### 👤 Role-Based Access
+- Secure login & signup for **Freelancers** and **Companies**
+- Authentication secured using hashed passwords via `bcrypt`
 
-### `npm start`
+### 📄 Freelancer Functionality
+- Resume upload
+- 100-mark evaluation system:
+  - Aptitude Test
+  - Coding Test
+- Test score ranking system
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 🏢 Company Functionality
+- Dashboard to view and **rank freelancers**
+- Project assignment interface
+- Set milestones and payout structure
+- Track project progress and freelancer status
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🔒 Security
+- Password hashing using `bcrypt`
+- Basic input validations and protected routes
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 💻 Tech Stack
 
-### `npm run build`
+| Frontend       | Backend       | Database | Other Tools  |
+|----------------|---------------|----------|--------------|
+| React.js       | Node.js       | MongoDB  | bcrypt, Express.js |
+| HTML/CSS/JS    | Express.js    | Mongoose | GitHub       |
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📁 Folder Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+freelanco/
+├── client/ # Frontend (React)
+│ └── ...
+├── server/ # Backend (Node/Express)
+│ └── ...
+├── README.md # Project documentation
+└── package.json
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
